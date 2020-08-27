@@ -4,7 +4,43 @@
  */
 public class Jeroo extends JerooBase {
     // Put any methods here
+   public void plantVertLine() {
+     plant();
+     hop();
+     plant();
+     hop();
+     plant();
+     hop();
+     plant();
+     hop();
+     plant();
+   }
 
+public void diagonal() {
+    hop();  
+    turn(LEFT);
+    turn(LEFT);
+    turn(LEFT);
+    hop();
+   }
+   
+public void moveUp() {
+    turn(LEFT);
+    turn(LEFT);
+    hop();
+    hop();
+    turn(LEFT);
+    turn(LEFT); 
+  }
+ public void plantHorzLine() {
+   turn(LEFT);
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   turn(RIGHT);
+   }
     
     // Do NOT touch the code below here
 
